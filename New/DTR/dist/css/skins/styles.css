@@ -1,0 +1,197 @@
+.header {
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #5f6e3c;
+
+}
+
+.sidebar-menu {
+    font-size: 18px;
+}
+
+.wrapper {
+    background-color: #94b454;
+}
+
+.navbar {
+    background-color: #aec533;
+    
+}
+
+.user-panel {
+    color:white;
+    font-size: 15px;
+    font-style: bold;
+    
+}
+
+
+.sidebar-toggle {
+    background-color: white;
+    color: white;
+}
+
+.logo-mini {
+    color: white;
+    
+}
+
+.dtr {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.breadcrumb {
+    color: black;
+    
+}
+
+.content-header {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.name {
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.administrator {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.bar {
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.sidebar-menu {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.user-header {
+    background-color: #5f6e3c;
+}
+
+.pull-right-container {
+    color: #5f6e3c;
+    font-size: 15px;
+}
+
+.box-title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.col-xs-6 {
+    margin-right: 50px;
+
+}
+
+.col-lg-3 {
+    margin-left: 40px;
+}
+
+.btn-success {
+    color: white;
+    background-color: #aec533;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #5f6e3c;
+}
+
+
+.btn-danger {
+    background-color: brown;
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #7b0303;
+    border: none;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #5f6e3c;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 13px;
+    text-decoration: none;
+    font-size: 11px;
+    font-family:monospace;
+  }
+  
+  .topnav a:hover {
+    background-color: #94b454;
+    color: white;
+  }
+  
+  .topnav a.active {
+
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .col-sm-9 {
+        
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .form-control {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+   
+
+    .control-label {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}

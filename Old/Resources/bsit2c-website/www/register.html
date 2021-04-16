@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample AJAX</title>
+</head>
+
+<body>
+    <hr> Register
+    <hr>
+    <label for="usrfname">Firstname: &nbsp;</label>
+    <input id="usrfname" type="text" placeholder="Firstname" />
+    <br>
+
+    <label for="usrlname">Lastname: &nbsp;</label>
+    <input id="usrlname" type="text" placeholder="Lastname" />
+    <br>
+
+    <label for="usruname">Username: &nbsp;</label>
+    <input id="usruname" type="email" placeholder="Username" />
+    <br>
+
+    <label for="usrpword">Password: &nbsp;</label>
+    <input id="usrpword" type="password" placeholder="Password" />
+    <br>
+
+    <label for="usrrole">User Role: &nbsp;</label>
+    <select id="usrrole">
+		<option value=1>Admin</option>
+		<option value=0>User</option>
+	</select>
+    <br>
+
+    <button onclick="register()">Register</button><br><br>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/scripts.js"></script>
+
+</body>
+
+</html>
