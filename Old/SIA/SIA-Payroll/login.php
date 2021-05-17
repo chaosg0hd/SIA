@@ -126,7 +126,8 @@ div#login-right::before {
 			},
 			success:function(resp){
 				if(resp == 1){
-					location.href ='index.php?page=home';
+					session_id( resp );
+					location.href ='index.php?';
 				}else if(resp == 2){
 					location.href ='voting.php';
 				}else{

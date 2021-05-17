@@ -1,0 +1,60 @@
+
+/*Root*/
+
+:root {
+    /*Color initialization goes here*/
+    --white: #fff;
+    --black: #000;
+    --red: #630118;
+    --color_primary: #377636; /*Primary*/
+    --color_secondary: #99ad6e;
+    --color_background: #cdd5c4;
+    
+}
+
+/*Bootstrap Overrides*/
+
+.btn-primary, .btn-primary:visited, .btn-primary:hover{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: var(--white);
+    border-radius: 5px;
+    background: var(--color_primary) !important;
+    outline: 0 !important;
+}
+
+.btn-primary:focus {
+    border-style: none !important;
+    outline-width: 0 !important;
+    outline: 0 !important;
+}
+.btn-primary:active {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: var(--white);
+    border-radius: 5px;
+    background: var(--color_secondary) !important;
+}
+
+/*CSS*/
+
+basefont {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: var(--color_background);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    color: var(--white) !important;
+    text-decoration: none !important;
+}
+div {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: var(--white);
+    border-radius: 20px;
+    padding: !important;
+}
