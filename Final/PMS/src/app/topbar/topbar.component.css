@@ -10,9 +10,19 @@
   height: 100%;
   border-radius: 50px 0px 0px 50px;
   background: var(--color_secondary);
-  background-image: linear-gradient(to top right, rgba(173, 110, 81, .5), rgb(173, 156, 81, .5));
+  background-image: linear-gradient(to top right, rgba(54, 118, 86, 1), rgb(173, 156, 81, .5));
   padding: 0px !important;
   display: flex;
+}
+
+#logo {
+  padding: 40px;
+  color: #059862;
+  text-align: center;
+  line-height: 70%;
+  user-select: none;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
 }
 
 #div-navbar-left {
